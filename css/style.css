@@ -1,4 +1,78 @@
 body {
   background-color: #dadada;
   font-size: 10px;
+  margin: 1% 0;
+  padding: 20px 25px;
+  width: 100%;
+}
+
+.container {
+  max-width: 80%;
+  margin: auto;
+}
+
+.preview {
+  height: 300px;
+  float: left;
+  width: 20%;
+  text-align: left;
+}
+
+.baku {
+  background-image: url('images/baku.jpg');
+  background-color: #ffffff;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.rome {
+  background-image: url('images/rome.jpg');
+  background-color: #ffffff;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.madrid {
+  background-image: url('images/madrid.jpg');
+  background-color: #ffffff;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.london {
+  background-image: url('images/london.png');
+  background-color: #ffffff;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 1.5em;
+  margin: 0;
+  font-family: sans-serif ;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.preview h1 {
+  font-size: 2em;
+  margin: 0;
+  font-family: serif ;
+  text-align: left;
+  padding-top: 5%;
+  padding-left: 5%;
+  text-transform: none;
+}
+
+@media screen and (min-width: 575px){
+   div {
+    margin: 1%;
+    width: 10%;
+  }
+}
+@media screen and (min-width: 991px){
+   div {
+    margin: 1%;
+    width: 5%;
+  }
 }

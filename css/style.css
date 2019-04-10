@@ -20,21 +20,21 @@ body {
 }
 
 .baku {
-  background-image: url('images/baku.jpg');
+  background-image: url('../images/baku.jpg');
   background-color: #ffffff;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .rome {
-  background-image: url('images/rome.jpg');
+  background-image: url('../images/rome.jpg');
   background-color: #ffffff;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .madrid {
-  background-image: url('images/madrid.jpg');
+  background-image: url('../images/madrid.jpg');
   background-color: #ffffff;
   background-size: cover;
   background-repeat: no-repeat;
@@ -42,7 +42,7 @@ body {
 }
 
 .london {
-  background-image: url('images/london.png');
+  background-image: url('../images/london.png');
   background-color: #ffffff;
   background-size: cover;
   background-repeat: no-repeat;
